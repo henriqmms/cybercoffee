@@ -16,13 +16,24 @@
   color:white;
 }
 
+.logo-principal {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-principal img {
+  position: absolute;
+  width: 25%;
+  top: 18%;
+}
+
 .titulo {
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 38%;
-  font-size: 30px;
+  top: 61%;
+  font-size: 25px;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -31,8 +42,8 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 40%;
-  font-size: 25px;
+  top: 61%;
+  font-size: 21px;
   font-family: 'Shadows Into Light', cursive;
 }
 
@@ -61,9 +72,21 @@
   display: block;
   text-align: center;
   text-decoration: none;
+  height: 40px;
+  padding-top: 5px;
   color: white;
 }
 
 .secoes li a:hover{
-  color: lightgray;
+  color: rgb(151, 151, 151);
+}
+
+.secoes li img{
+  position: relative;
+  width: 50px;
+  top: -12px;
+}
+
+.secoes li img:hover{
+  opacity: 0.7;
 }
